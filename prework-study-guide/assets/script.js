@@ -1,4 +1,10 @@
-const topic = "HTML";
+const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+
+for (let x = 0; x < topics.length; x++) {
+ console.log(topics[x]);
+}
+
+/*const topic = "HTML";
 
 if (topic === 'HTML') {
   console.log("Let's study HTML!");
@@ -17,4 +23,12 @@ if (topic === 'HTML') {
 }
 
 
+const shapes = ["triangle", "square", "pentagon", "circle"];
+
+for(let x = 0; x < shapes.length; x++)
+ {
+ console.log(shapes[x]);
+}
+
+*/
 
